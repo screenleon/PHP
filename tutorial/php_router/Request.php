@@ -21,13 +21,13 @@ class Request implements IRequest
         // echo "<br>" ;
     }
 
-    private function toCamelCase($string)
+    private function toCamelCase(string $string)
     {
         $result = strtolower($string);
         echo $result . '<br>';
         preg_match_all('/_[a-z]/', $result, $matches);
-        var_dump($matches);
-        echo '<br>';
+        // var_dump($matches);
+        // echo '<br>';
         foreach ($matches[0] as $match) {
             $c = str_replace('_', '', strtoupper($match));
             $result = str_replace($match, $c, $result);
