@@ -11,3 +11,7 @@
     * Be sure the ternary operator may need brackets to include
 * 028.php
     * Get the tmp folder with `sys_get_temp_dir()`, use `tempnam()` to generate file, also can generate with prefix
+* 030.php
+    * Using `getlastmod()` to get the lastest modified, `filemtime(), stat()['mtime']` can get the file mtime
+* 031.php
+    * Using `list(a,b,...) =array(a,b,...)` get the variable, construct to array then use list to destruct
