@@ -17,3 +17,9 @@
     * Using `list(a,b,...) =array(a,b,...)` get the variable, construct to array then use list to destruct
 * 053.php
     * Unknown with how to get circle radius with 3 coordinates
+* 058.php
+    * Forget to check the two circle is intersect or not
+* 060.php
+    * Unfamiliar with sort using key to sort, using ksort
+* 061.php
+    * `array_count_value()` can count the amount for value
